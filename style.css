@@ -1,0 +1,104 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(34, 75, 195);
+}
+
+body {
+    background: linear-gradient(0deg, rgba(34, 75, 195, 1) 31%, rgba(45, 253, 100, 1) 71%);
+    background-repeat: no-repeat;
+}
+
+.contenedor,
+.hijo,
+.tareas {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 100%;
+}
+
+.hijo {
+    max-width: 50rem;
+    min-width: 30rem;
+    background-color: #ffffff;
+    margin: 10rem;
+    margin-top: 5rem;
+    border-radius: 0.3rem;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.titulo {
+    width: 80%;
+}
+
+h1 {
+    text-align: left;
+}
+
+.inputTarea {
+    padding: 0.6rem;
+    width: 20rem;
+    margin-right: 0;
+}
+
+.agregar {
+    width: 2.3rem;
+    padding: 0.6rem;
+    background-color: #8e4be9;
+    border: none;
+    margin: 0;
+}
+
+i {
+    color: #fffdff;
+}
+
+.tareas {
+    flex-direction: column;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    height: 3rem;
+    width: 80%;
+    margin-top: 0.5rem;
+}
+
+.tarea {
+    background-color: #f3f1f4;
+    height: 1rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.tarea p {
+    text-align: left;
+    margin: 0;
+}
+
+.item button {
+    display: none;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.item:hover>button {
+    background-color: red;
+    width: 2.3rem;
+    padding: 0.6rem;
+    border: none;
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+}
